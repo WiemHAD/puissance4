@@ -277,15 +277,8 @@ class Players(Deep_Q) :
         self.RED = (255,0,0)
         self.YELLOW = (255,255,0)
    
-    
-#    def select_adversaire(self) :# Nidhal
-#        while(not( self.vs==1 or  self.vs==2)) :  
-#                self.vs = int(input("New Game \n 1 : vs computer \n 2 : vs friend \n "))
-#        if(self.vs==1) : 
-#            print("New Game with a computer will start, Good luck !")
-#        elif (self.vs==2) : print("New Game with a freind will start, Good luck !")
         
-    def select_adversaire(self) : #joshua
+    def select_adversaire(self) : 
         oui = ["hxr","hxh","rxr"]
         if self.vs in oui:
                 self.vs = print("please tape --help to get commands")
